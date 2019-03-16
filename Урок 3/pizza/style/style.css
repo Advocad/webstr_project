@@ -84,3 +84,24 @@
 .shop{
   text-align: right;
 }
+/* стили для gl */
+.logo {
+  font-family: 'CoreRhino85Black';
+  font-size: 48px;
+  line-height: 30px;
+  color: #ec2e2f;
+}
+.topnav ul {
+  width: 100%;
+}
+.topnav ul li {
+  float: none;
+  display: inline-block;
+}
+.topnav ul a {
+  text-decoration: none;
+  color: #363636;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 5px 35px;
+}
