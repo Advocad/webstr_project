@@ -28,6 +28,59 @@
   padding-bottom: 30px;
   padding-top: 15px;
 }
+/* Стили для information блока  */
 .information {
   margin-bottom: 30px;
+}
+.map span{
+  position: relative;
+  padding-left: 20px
+}
+.map span::before{
+  content: "";
+  background: url(../img/map.png);
+  position: absolute;
+  width: 14px;
+  height: 20px;
+  left: 0px;
+}
+.mail span{
+  position: relative;
+  padding-left: 24px
+}
+.mail span::before{
+  content: "";
+  background: url(../img/mail.png);
+  position: absolute;
+  width: 24px;
+  height: 17px;
+  left: -12px;
+  top: 0
+}
+.phone span{
+  position: relative;
+  padding-left: 16px
+}
+.phone span::before{
+  content: "";
+  background: url(../img/phone.png);
+  position: absolute;
+  width: 16px;
+  height: 22px;
+  left: -9px;
+  top: -2px;
+}
+.link{
+  color: #363636;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 12px;
+  display: block;
+  text-align: center;
+}
+.link:hover{
+  color: #01aa54;
+}
+.shop{
+  text-align: right;
 }
