@@ -1,0 +1,15 @@
+.bl1{
+  height: 150px;
+  border: 1px dashed red
+}
+.bl2{
+  width: 200px;
+  height: 200px;
+  border: 1px dashed red;
+  float: left;
+}
+.bl3{
+
+  height: 300px;
+  border: 1px dashed red
+}
