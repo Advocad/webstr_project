@@ -1,20 +1,33 @@
 @font-face {
   font-family: 'Museo Sans 900';
-  src: url('fonts/MuseoSansCyrl-900.eot');
-  src: url('fonts/MuseoSansCyrl-900.eot?#iefix') format('embedded-opentype'),
-  url('fonts/MuseoSansCyrl-900.woff') format('woff'),
-  url('fonts/MuseoSansCyrl-900.ttf') format('truetype');
+  src: url('../fonts/MuseoSansCyrl-900.eot');
+  src: url('../fonts/MuseoSansCyrl-900.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/MuseoSansCyrl-900.woff') format('woff'),
+  url('../fonts/MuseoSansCyrl-900.ttf') format('truetype');
 }
 @font-face {
   font-family: 'CoreRhino85Black';
-  src: url('fonts/CoreRhino85Black.otf');
+  src: url('../fonts/CoreRhino85Black.otf');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Museo Sans 500';
-  src: url('fonts/MuseoSansCyrl-500.eot');
-  src: url('fonts/MuseoSansCyrl-500.eot?#iefix') format('embedded-opentype'),
-  url('fonts/MuseoSansCyrl-500.woff') format('woff'),
-  url('fonts/MuseoSansCyrl-500.ttf') format('truetype');
+  src: url('../fonts/MuseoSansCyrl-500.eot');
+  src: url('../fonts/MuseoSansCyrl-500.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/MuseoSansCyrl-500.woff') format('woff'),
+  url('../fonts/MuseoSansCyrl-500.ttf') format('truetype');
+}
+
+#header {
+  background: url(../img/bg_head.jpg);
+  font-size: 16px;
+  line-height: 25px;
+  color: #363636;
+  font-family: 'Museo Sans 900';
+  padding-bottom: 30px;
+  padding-top: 15px;
+}
+.information {
+  margin-bottom: 30px;
 }
