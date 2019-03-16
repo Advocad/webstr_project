@@ -1,0 +1,6 @@
+.heirdom p:hover {
+  color: red;
+}
+a:focus {
+  color: red;
+}

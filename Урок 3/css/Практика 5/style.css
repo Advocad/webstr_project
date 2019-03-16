@@ -1,0 +1,3 @@
+.heirdom p:nth-child(odd) {
+  color: red;
+}
