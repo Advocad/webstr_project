@@ -18,6 +18,18 @@
   url('../fonts/MuseoSansCyrl-500.woff') format('woff'),
   url('../fonts/MuseoSansCyrl-500.ttf') format('truetype');
 }
+h1 {
+  font-size: 24px;
+  line-height: normal;
+  margin-bottom: 38px;
+  margin-top: 0;
+  font-family: 'CoreRhino85Black';
+  color: #363636;
+}
+p {
+  margin: 0 0 35px;
+  width: 100%;
+}
 
 #header {
   background: url(../img/bg_head.jpg);
@@ -113,4 +125,76 @@
   position: relative;
   z-index: 2;
   text-align: center;
+}
+
+/* main */
+
+#middle {
+  position: relative;
+  background: url(../img/bg.png);
+}
+
+.sidebar {
+  margin-bottom: 30px;
+  margin-top: 51px;
+  box-shadow: 0px 0px 29px 0px rgba(1, 48, 24, 0.24);
+}
+.titl_m {
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'CoreRhino85Black';
+  padding: 31px 0;
+  background: #01aa54;
+}
+#sidebar-menu {
+  padding-left: 0;
+  padding-right: 0;
+}
+#sidebar-menu ul{
+  position: relative;
+  margin: 0;
+  background: #fff;
+  padding: 18px 0;
+}
+#sidebar-menu ul li{
+  list-style-type: none;
+  width: 100%;
+}
+#sidebar-menu ul li a{
+  padding: 10px 10px 10px 35px;
+  text-decoration: none;
+  display: block;
+  color: #363636;
+  position: relative;
+  font-family: 'Museo Sans 900';
+  font-size: 18px;
+}
+#sidebar-menu ul a:hover{
+  background: #fff;
+  color: #01aa54;
+}
+#sidebar-menu ul::after{
+  content: "";
+  position: absolute;
+  background: url(../img/pizza.png);
+  right: 0;
+  bottom: 0;
+  width: 131px;
+  height: 121px;
+}
+
+/* content */
+#content {
+  min-height: 500px;
+  padding-top: 51px;
+}
+.content_inner {
+  margin-bottom: 50px;
+  width: 100%;
+  font-size: 16px;
+  line-height: 25px;
+  color: #363636;
+  font-family: 'Museo Sans 500';
 }
