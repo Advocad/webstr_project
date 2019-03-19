@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'Museo Sans 900';
+  src: url('../fonts/MuseoSansCyrl-900.eot');
+  src: url('../fonts/MuseoSansCyrl-900.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/MuseoSansCyrl-900.woff') format('woff'),
+  url('../fonts/MuseoSansCyrl-900.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'CoreRhino85Black';
+  src: url('../fonts/CoreRhino85Black.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Museo Sans 500';
+  src: url('../fonts/MuseoSansCyrl-500.eot');
+  src: url('../fonts/MuseoSansCyrl-500.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/MuseoSansCyrl-500.woff') format('woff'),
+  url('../fonts/MuseoSansCyrl-500.ttf') format('truetype');
+}
+
+#header {
+  background: url(../img/bg_head.jpg);
+  font-size: 16px;
+  line-height: 25px;
+  color: #363636;
+  font-family: 'Museo Sans 900';
+  padding-bottom: 30px;
+  padding-top: 15px;
+}
+/* Стили для information блока  */
+.information {
+  margin-bottom: 30px;
+}
+.map span{
+  position: relative;
+  padding-left: 20px
+}
+.map span::before{
+  content: "";
+  background: url(../img/map.png);
+  position: absolute;
+  width: 14px;
+  height: 20px;
+  left: 0px;
+}
+.mail span{
+  position: relative;
+  padding-left: 24px
+}
+.mail span::before{
+  content: "";
+  background: url(../img/mail.png);
+  position: absolute;
+  width: 24px;
+  height: 17px;
+  left: -12px;
+  top: 0
+}
+.phone span{
+  position: relative;
+  padding-left: 16px
+}
+.phone span::before{
+  content: "";
+  background: url(../img/phone.png);
+  position: absolute;
+  width: 16px;
+  height: 22px;
+  left: -9px;
+  top: -2px;
+}
+.link{
+  color: #363636;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 12px;
+  display: block;
+  text-align: center;
+}
+.link:hover{
+  color: #01aa54;
+}
+.shop{
+  text-align: right;
+}
+/* стили для gl */
+.logo {
+  font-family: 'CoreRhino85Black';
+  font-size: 48px;
+  line-height: 30px;
+  color: #ec2e2f;
+}
+.topnav ul {
+  width: 100%;
+}
+.topnav ul li {
+  float: none;
+  display: inline-block;
+}
+.topnav ul a {
+  text-decoration: none;
+  color: #363636;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 5px 35px;
+}
+
+/* banner */
+
+#banner{
+  box-shadow: 0px 10px 24px 0px rgba(1, 48, 24, 0.10);
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
