@@ -329,3 +329,13 @@ p {
   height: 22px;
   top: 0;
 }
+.zak_f {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 12px;
+  display: block;
+  font-family: 'Museo Sans';
+  font-weight: 900;
+  margin-top: 12px;
+}
