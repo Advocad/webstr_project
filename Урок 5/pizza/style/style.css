@@ -1,0 +1,331 @@
+@font-face {
+  font-family: 'Museo Sans 900';
+  src: url('../fonts/MuseoSansCyrl-900.eot');
+  src: url('../fonts/MuseoSansCyrl-900.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/MuseoSansCyrl-900.woff') format('woff'),
+  url('../fonts/MuseoSansCyrl-900.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'CoreRhino85Black';
+  src: url('../fonts/CoreRhino85Black.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Museo Sans 500';
+  src: url('../fonts/MuseoSansCyrl-500.eot');
+  src: url('../fonts/MuseoSansCyrl-500.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/MuseoSansCyrl-500.woff') format('woff'),
+  url('../fonts/MuseoSansCyrl-500.ttf') format('truetype');
+}
+h1 {
+  font-size: 24px;
+  line-height: normal;
+  margin-bottom: 38px;
+  margin-top: 0;
+  font-family: 'CoreRhino85Black';
+  color: #363636;
+}
+p {
+  margin: 0 0 35px;
+  width: 100%;
+}
+
+#header {
+  background: url(../img/bg_head.jpg);
+  font-size: 16px;
+  line-height: 25px;
+  color: #363636;
+  font-family: 'Museo Sans 900';
+  padding-bottom: 30px;
+  padding-top: 15px;
+}
+/* Стили для information блока  */
+.information {
+  margin-bottom: 30px;
+}
+.map span{
+  position: relative;
+  padding-left: 20px
+}
+.map span::before{
+  content: "";
+  background: url(../img/map.png);
+  position: absolute;
+  width: 14px;
+  height: 20px;
+  left: 0px;
+}
+.mail span{
+  position: relative;
+  padding-left: 24px
+}
+.mail span::before{
+  content: "";
+  background: url(../img/mail.png);
+  position: absolute;
+  width: 24px;
+  height: 17px;
+  left: -12px;
+  top: 0
+}
+.phone span{
+  position: relative;
+  padding-left: 16px
+}
+.phone span::before{
+  content: "";
+  background: url(../img/phone.png);
+  position: absolute;
+  width: 16px;
+  height: 22px;
+  left: -9px;
+  top: -2px;
+}
+.link{
+  color: #363636;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 12px;
+  display: block;
+  text-align: center;
+}
+.link:hover{
+  color: #01aa54;
+}
+.shop{
+  text-align: right;
+}
+/* стили для gl */
+.logo {
+  font-family: 'CoreRhino85Black';
+  font-size: 48px;
+  line-height: 30px;
+  color: #ec2e2f;
+}
+.topnav ul {
+  width: 100%;
+}
+.topnav ul li {
+  float: none;
+  display: inline-block;
+}
+.topnav ul a {
+  text-decoration: none;
+  color: #363636;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 5px 35px;
+}
+
+/* banner */
+
+#banner{
+  box-shadow: 0px 10px 24px 0px rgba(1, 48, 24, 0.10);
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+#banner img{
+  width: 100%;
+}
+/* main */
+
+#middle {
+  position: relative;
+  background: url(../img/bg.png);
+}
+
+.sidebar {
+  margin-bottom: 30px;
+  margin-top: 51px;
+  box-shadow: 0px 0px 29px 0px rgba(1, 48, 24, 0.24);
+}
+.titl_m {
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'CoreRhino85Black';
+  padding: 31px 0;
+  background: #01aa54;
+}
+#sidebar-menu {
+  padding-left: 0;
+  padding-right: 0;
+}
+#sidebar-menu ul{
+  position: relative;
+  margin: 0;
+  background: #fff;
+  padding: 18px 0;
+}
+#sidebar-menu ul li{
+  list-style-type: none;
+  width: 100%;
+}
+#sidebar-menu ul li a{
+  padding: 10px 10px 10px 35px;
+  text-decoration: none;
+  display: block;
+  color: #363636;
+  position: relative;
+  font-family: 'Museo Sans 900';
+  font-size: 18px;
+}
+#sidebar-menu ul a:hover{
+  background: #fff;
+  color: #01aa54;
+}
+#sidebar-menu ul::after{
+  content: "";
+  position: absolute;
+  background: url(../img/pizza.png);
+  right: 0;
+  bottom: 0;
+  width: 131px;
+  height: 121px;
+}
+
+/* content */
+#content {
+  min-height: 500px;
+  padding-top: 51px;
+}
+.content_inner {
+  margin-bottom: 50px;
+  width: 100%;
+  font-size: 16px;
+  line-height: 25px;
+  color: #363636;
+  font-family: 'Museo Sans 500';
+}
+
+/*popular*/
+#popular {
+  margin-bottom: 25px;
+}
+.title_p {
+  color: #363636;
+  font-size: 24px;
+  line-height: 25px;
+  font-family: 'CoreRhino85Black';
+  margin-bottom: 45px;
+  text-transform: uppercase;
+}
+.tovar {
+  text-align: center;
+  background: #fff;
+  box-shadow: 0px 6px 35px 0px rgba(5, 25, 54, 0.1);
+  margin-bottom: 20px;
+}
+.product__link img {
+  padding: 15px;
+}
+.product-title {
+  font-size: 16px;
+  line-height: 25px;
+  font-family: 'CoreRhino85Black';
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.product-title a {
+  text-decoration: none;
+  color: #363636;
+}
+.select {
+  position: relative;
+  display: inline-block;
+}
+.select i img{
+  position: absolute;
+  right: 15px;
+  top: 10px;
+}
+.Shop_option_name {
+  display: none;
+}
+.addparam {
+  width: 169px;
+  border: 1px solid #01aa54;
+  color: #363636;
+  font-size: 14px;
+  padding: 5px;
+  font-family: 'Museo Sans 500';
+  position: relative;
+  outline: none;
+  background: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.price-wraper {
+  padding: 18px 0;
+  color: #363636;
+  font-size: 20px;
+  font-family: 'Museo Sans 900';
+}
+.btn_shop {
+  width: 100%;
+  display: block;
+  font-size: 16px;
+  font-family: 'Museo Sans 900';
+  color: #fff;
+  text-decoration: none;
+  background: #01aa54;
+  padding: 15px 0;
+}
+
+/* футер */
+#footer {
+  position: relative;
+  background: #01aa54;
+  color: #fff;
+  padding: 30px 0;
+}
+.flink {
+  display: block;
+}
+.flink li {
+  display: block;
+  float: none;
+  margin-bottom: 10px;
+}
+.flink li a {
+  padding: 0 15px;
+  color: #fff;
+  font-family: 'Museo Sans 900';
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.map_f, .mail_f, .phone_f {
+  font-size: 16px;
+  font-family: 'Museo Sans 900';
+  position: relative;
+}
+.map_f {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.map_f::after {
+  content: "";
+  left: -25px;
+  position: absolute;
+  background: url(../img/map_f.png);
+  width: 14px;
+  height: 20px;
+}
+.phone_f {
+  font-size: 20px;
+  margin-top: 27px;
+}
+.phone_f::before {
+  content: "";
+  left: -25px;
+  position: absolute;
+  background: url(../img/phone_f.png);
+  width: 16px;
+  height: 22px;
+  top: 0;
+}
